@@ -1,7 +1,11 @@
 import React from 'react'
+import useGithub from '../../hooks/github-hooks'
 import * as S from './styled'
 
 const Profile = () => {
+
+    const {githubState} = useGithub();
+
     return (
         <S.Wrapper>
             <S.WrapperImage
@@ -10,10 +14,10 @@ const Profile = () => {
             />
             <S.WrapperInfoUser>
                 <div>
-                    <h1>Matheus Benites</h1>
+                    <h1>{githubState.user.name}</h1>
                     <S.WrapperUserName>
                         <h3>Username: </h3>
-                        <a href='https://github.com/benits' target='_blank'>benits</a>
+                        <a href='https://github.com/benits' target='_blank' rel='noreferrer'>benits</a>
                     </S.WrapperUserName>
                 </div>
                 <S.WrapperStatusCount>
