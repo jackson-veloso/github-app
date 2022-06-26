@@ -37,7 +37,7 @@ export const WrapperStatusCount = styled.div`
     }
 `;
 
-export const WrapperUserName = styled.div`
+export const WrapperUserGeneric = styled.div`
     display: flex;
     align-items: center;
     margin-top: 8px;
@@ -52,6 +52,7 @@ export const WrapperUserName = styled.div`
         font-size: 18px;
     }
 `;
+
 
 export const WrapperImage = styled.img`
 border-radius: 50%;
