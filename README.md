@@ -5,5 +5,3 @@ Este projeto faz parte do processo de aprendizado do curso Fullstack Developer d
 ### Referência
 https://github.com/benits/github-api-interface
 https://bitly.com/playlist-interface-componentizada
-
-aula 7
